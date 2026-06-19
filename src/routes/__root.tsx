@@ -118,7 +118,7 @@ function Navigation() {
         scrolled ? "bg-background/95 backdrop-blur-md border-b border-border shadow-sm" : "bg-transparent"
       }`}
     >
-      <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-6 py-4 lg:grid-cols-3">
+      <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 sm:px-6 py-3 sm:py-4 lg:grid-cols-3">
         <Link to="/" className="flex min-w-0 items-center gap-2 lg:justify-self-start">
           <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gold bg-maroon">
             <span className="font-display text-lg text-gold">B</span>
@@ -264,7 +264,7 @@ function WhatsAppFloat() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label="Chat on WhatsApp"
-      className="fixed bottom-6 right-6 z-40 flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl shadow-[#25D366]/40 hover:scale-110 transition-transform animate-float"
+      className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-40 flex h-12 w-12 sm:h-14 sm:w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-2xl shadow-[#25D366]/40 hover:scale-110 transition-transform animate-float"
     >
       <MessageCircle className="h-6 w-6" />
       <span className="absolute inset-0 -z-10 rounded-full bg-[#25D366] animate-ping opacity-20" />

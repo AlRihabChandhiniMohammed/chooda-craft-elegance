@@ -30,7 +30,7 @@ function AboutPage() {
       {/* HERO */}
       <section className="px-6 text-center max-w-3xl mx-auto">
         <p className="eyebrow"><span className="gold-divider">Our Story</span></p>
-        <h1 className="mt-6 font-display text-5xl md:text-6xl text-maroon text-balance">
+        <h1 className="mt-6 font-display text-4xl sm:text-5xl md:text-6xl text-maroon text-balance">
           A Legacy of <span className="italic text-shimmer">Handcrafted</span> Beauty
         </h1>
         <p className="mt-6 text-muted-foreground leading-relaxed">
@@ -46,7 +46,7 @@ function AboutPage() {
           </div>
           <div>
             <p className="eyebrow">Founder</p>
-            <h2 className="mt-4 font-display text-4xl md:text-5xl text-maroon">A Passion Passed Down</h2>
+            <h2 className="mt-4 font-display text-3xl sm:text-4xl md:text-5xl text-maroon">A Passion Passed Down</h2>
             <p className="font-script text-3xl text-gold mt-6">"Each bangle carries a story."</p>
             <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
               <p>
@@ -66,7 +66,7 @@ function AboutPage() {
         <div className="mx-auto max-w-7xl">
           <div className="text-center max-w-2xl mx-auto">
             <p className="eyebrow"><span className="gold-divider">What Guides Us</span></p>
-            <h2 className="mt-6 font-display text-4xl md:text-5xl text-maroon">Our Values</h2>
+            <h2 className="mt-6 font-display text-3xl sm:text-4xl md:text-5xl text-maroon">Our Values</h2>
           </div>
           <div className="mt-16 grid gap-10 md:grid-cols-2 lg:grid-cols-4">
             {values.map((v) => (

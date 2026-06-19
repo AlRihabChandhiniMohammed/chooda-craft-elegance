@@ -39,7 +39,7 @@ function ContactPage() {
     <div className="bg-background pt-32 pb-24">
       <section className="px-6 text-center max-w-3xl mx-auto">
         <p className="eyebrow"><span className="gold-divider">Let's Connect</span></p>
-        <h1 className="mt-6 font-display text-5xl md:text-6xl text-maroon">Get in Touch</h1>
+        <h1 className="mt-6 font-display text-4xl sm:text-5xl md:text-6xl text-maroon">Get in Touch</h1>
         <p className="mt-5 text-muted-foreground">Visit our boutique, send us a message, or chat with our bridal stylist on WhatsApp.</p>
       </section>
 

@@ -76,7 +76,7 @@ function ShopPage() {
       {/* HEADER */}
       <section className="px-6 text-center max-w-3xl mx-auto">
         <p className="eyebrow"><span className="gold-divider">The Boutique</span></p>
-        <h1 className="mt-6 font-display text-5xl md:text-6xl text-maroon">Shop Bridal Bangles</h1>
+        <h1 className="mt-6 font-display text-4xl sm:text-5xl md:text-6xl text-maroon">Shop Bridal Bangles</h1>
         <p className="mt-5 text-muted-foreground">Each piece in our collection is handcrafted in limited quantities. Discover your perfect set.</p>
       </section>
 
@@ -85,7 +85,7 @@ function ShopPage() {
         <aside className="space-y-8 lg:sticky lg:top-28 lg:self-start">
           <div className="flex items-center gap-2 text-maroon">
             <SlidersHorizontal className="h-4 w-4" />
-            <h2 className="font-display text-2xl">Refine</h2>
+            <h2 className="font-display text-xl sm:text-2xl">Refine</h2>
           </div>
 
           <div>

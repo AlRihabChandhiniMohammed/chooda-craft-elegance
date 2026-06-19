@@ -92,7 +92,7 @@ function Home() {
     <div className="bg-background text-foreground overflow-hidden">
 
       {/* HERO */}
-      <section className="relative min-h-dvh flex items-center justify-center pt-24 pb-16 px-6">
+      <section className="relative min-h-dvh flex items-center justify-center pt-24 pb-16 px-4 sm:px-6">
         <div className="absolute inset-0">
           <img
             src={heroImg}
@@ -121,7 +121,7 @@ function Home() {
           </motion.p>
           <motion.h1
             variants={fadeUp}
-            className="mt-8 font-display text-5xl leading-[1.05] text-maroon md:text-6xl lg:text-7xl text-balance"
+            className="mt-6 sm:mt-8 font-display text-4xl leading-[1.05] text-maroon sm:text-5xl md:text-6xl lg:text-7xl text-balance"
           >
             Handcrafted Bridal Bangles<br />
             <span className="italic text-shimmer">Made for Your Special Day</span>
@@ -152,7 +152,7 @@ function Home() {
             className="text-center max-w-2xl mx-auto"
           >
             <p className="eyebrow"><span className="gold-divider">Our Collections</span></p>
-            <h2 className="mt-6 font-display text-4xl md:text-5xl text-maroon">Curated Bridal Treasures</h2>
+            <h2 className="mt-6 font-display text-3xl sm:text-4xl md:text-5xl text-maroon">Curated Bridal Treasures</h2>
             <p className="mt-5 text-muted-foreground">Six signature collections, each a celebration of craftsmanship and the timeless beauty of an Indian bride.</p>
           </motion.div>
 
@@ -199,7 +199,7 @@ function Home() {
             className="text-center max-w-2xl mx-auto"
           >
             <p className="eyebrow"><span className="gold-divider">Why Choose Us</span></p>
-            <h2 className="mt-6 font-display text-4xl md:text-5xl text-maroon">The Bridal Chooda Promise</h2>
+            <h2 className="mt-6 font-display text-3xl sm:text-4xl md:text-5xl text-maroon">The Bridal Chooda Promise</h2>
           </motion.div>
 
           <div className="mt-16 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
@@ -249,7 +249,7 @@ function Home() {
             transition={{ duration: 0.8 }}
           >
             <p className="eyebrow">Our Craftsmanship</p>
-            <h2 className="mt-5 font-display text-4xl md:text-5xl text-maroon leading-tight">
+            <h2 className="mt-5 font-display text-3xl sm:text-4xl md:text-5xl text-maroon leading-tight">
               Every bangle is <span className="italic text-shimmer">handcrafted</span> with attention to every detail.
             </h2>
             <p className="mt-6 text-muted-foreground leading-relaxed">
@@ -278,7 +278,7 @@ function Home() {
         <div className="relative mx-auto max-w-7xl">
           <motion.div initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} className="text-center max-w-2xl mx-auto">
             <p className="eyebrow !text-gold"><span className="gold-divider">Your Custom Set</span></p>
-            <h2 className="mt-6 font-display text-4xl md:text-5xl">A Bespoke Bridal Journey</h2>
+            <h2 className="mt-6 font-display text-3xl sm:text-4xl md:text-5xl">A Bespoke Bridal Journey</h2>
             <p className="mt-5 text-ivory/70">From the first inspiration to the final reveal, a personal experience designed around you.</p>
           </motion.div>
 
@@ -311,11 +311,11 @@ function Home() {
         <div className="mx-auto max-w-7xl">
           <motion.div initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} className="text-center max-w-2xl mx-auto">
             <p className="eyebrow"><span className="gold-divider">Bridal Gallery</span></p>
-            <h2 className="mt-6 font-display text-4xl md:text-5xl text-maroon">Real Brides, Real Moments</h2>
+            <h2 className="mt-6 font-display text-3xl sm:text-4xl md:text-5xl text-maroon">Real Brides, Real Moments</h2>
             <p className="mt-5 text-muted-foreground">An ever-growing album of brides wearing our craft on their most cherished day.</p>
           </motion.div>
 
-          <div className="mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-[200px]">
+          <div className="mt-14 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4 auto-rows-[120px] sm:auto-rows-[200px]">
             {galleryItems.map((g, i) => (
               <motion.div
                 key={i}
@@ -346,7 +346,7 @@ function Home() {
         <div className="mx-auto max-w-7xl">
           <motion.div initial="hidden" whileInView="show" viewport={{ once: true }} variants={fadeUp} className="text-center max-w-2xl mx-auto">
             <p className="eyebrow"><span className="gold-divider">Bride Stories</span></p>
-            <h2 className="mt-6 font-display text-4xl md:text-5xl text-maroon">Words from Our Brides</h2>
+            <h2 className="mt-6 font-display text-3xl sm:text-4xl md:text-5xl text-maroon">Words from Our Brides</h2>
           </motion.div>
 
           <div className="mt-16 grid gap-8 md:grid-cols-3">
@@ -387,7 +387,7 @@ function Home() {
           className="relative mx-auto max-w-3xl text-center text-ivory"
         >
           <p className="eyebrow !text-gold">Personal Consultation</p>
-          <h2 className="mt-6 font-display text-4xl md:text-6xl leading-tight">
+          <h2 className="mt-6 font-display text-3xl sm:text-4xl md:text-6xl leading-tight">
             Need a <span className="italic text-shimmer">Customized</span> Bridal Set?
           </h2>
           <p className="mt-6 text-ivory/80 max-w-xl mx-auto">

@@ -39,7 +39,7 @@ function CustomOrder() {
       {/* HERO */}
       <section className="relative px-6 text-center max-w-3xl mx-auto">
         <p className="eyebrow"><span className="gold-divider">Bespoke Bridal</span></p>
-        <h1 className="mt-6 font-display text-5xl md:text-6xl text-maroon">Design Your Dream Set</h1>
+        <h1 className="mt-6 font-display text-4xl sm:text-5xl md:text-6xl text-maroon">Design Your Dream Set</h1>
         <p className="mt-5 text-muted-foreground">A personal consultation with our bridal stylists. Share your vision — we'll craft a one-of-a-kind heirloom around it.</p>
       </section>
 
